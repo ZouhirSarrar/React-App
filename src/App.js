@@ -1,16 +1,17 @@
-import React from 'react'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import MainContent from './components/MainContent'
+import React from 'react';
+import Joke from './components/Joke'
 
 function App(){
   return(
     <div>
-      <Header/>
-      <MainContent/>
-      <Footer/>
+      <Joke joke ={{ question:"what is aspergers ?",punchline:"burgers in the ass"}}/>
+      <Joke joke ={{ question:"what is hey ?",punchline:"burgers "}}/>
+      <Joke joke ={{ question:"what is azaz ?",punchline:"aaaaa"}}/>
+      <Joke joke ={{ question:"what is a door ?",punchline:"door knob"}}/>
+      <Joke joke ={{ question:"what is aspergers ?",punchline:"fuck you cartman"}}/>
+
     </div>
   )
 }
 
-export default App
+export default  App
